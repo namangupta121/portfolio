@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    margin-top: auto;
+    background: black;
+    color: white;
+    
+}
+#home{
+    height:100vh;
+    width:100vw;
+}
+.header1{
+    height: 40px;
+    width: 100%;
+    float: left;
+    display: flex;
+    position: fixed;
+}
+.header11{
+width:50vw;
+height:40px;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+.header12{
+    height: 40px;
+    width: 50vw;
+    justify-content: space-around;
+    font-size: 20px;
+    display: flex;
+    text-decoration: none; 
+    align-items: center; 
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 70px;
+    color: aqua;
+    text-decoration: none;
+}
+.s1{
+    border: 2px solid skyblue;
+    background-color: skyblue;
+    color: azure;
+
+}
+.header11 p{
+    font-size:30px ;
+    margin-left: 50px;
+    color: springgreen;
+}
+h1{
+    font-size:50px ;
+    margin-left: 50px;
+    font-weight: 100;
+}
+h2{
+    margin-left:50px;
+    border:2px solid red;
+    width: 23%;
+    text-align: center;
+    color: springgreen;
+}
+.im1{
+    display: flex;
+}
+h4{
+    font-weight: 50px;
+    margin-left: 50px;
+    color: aqua;
+
+}
+h5{
+    height: 80px;
+    justify-content: space-around;
+    display: flex;
+    padding-top: 0;
+    padding-left: 60%;
+    padding-right: 0%;
+    text-decoration: none;  
+    position: relative;
+    margin-top: 0vh;
+}
+#skills,#projects{
+    height:60vh;
+    width:100vw;
+    display: flex;
+}
+.skill,.project{
+    width:50vw;
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 22px;
+}
+.skill,.project,.skillImg,.projectImg{
+    height:50vh;
+    width:50vw;
+}
+.skillImg{
+    background-image: url("baner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid whitesmoke;
+
+}
+.projectImg{
+    background-image: url("tech1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid whitesmoke;
+
+}
+#contact{
+    width:100vw;
+    height:40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contact ul{
+    display: flex;
+    flex-direction: row;
+}
+#contact ul li{
+    list-style-type: none;
+border: 2px solid rgba(255,255,255,0);
+}
